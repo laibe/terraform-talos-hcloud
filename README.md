@@ -22,6 +22,12 @@ brew install hashicorp/tap/packer
 brew install hashicorp/tap/terraform
 ```
 
+Export your hcloud token:
+
+```bash
+export HCLOUD_TOKEN=<hcloud-token>
+```
+
 ## Packer
 
 Create the talos os image via packer. The talos os version is defined in the variable `talos_version`  in `hcloud_talosimage.pkr.hcl`.
